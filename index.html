@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-<!-- <style> 
-body {
-  color:#f3bba3
-}
-
-    nav {
-text-align:center
-padding: 20px;
-position:fixed;
-z-index: index -10;
-
-    }
-    body { 
-      
-      background: color #353307; ;
-      }
-
-  </style> -->
   <meta charset="UTF-8">
   <meta name="author" content="Art 444 Student">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="refresh" content="150">
   <title>Savannah Jewel's Portfolio</title>
-  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Onest:wght@300&family=Playwrite+US+Trad&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+<img class="menu" src="images/hamburger-menu-svgrepo-com.svg" alt="menu"/>
 
-<nav class="main-navigation"> 
-  <div>
+  <nav class="main-navigation">  
+  <div >
   <a href="#Sav">about</a>
   <a href="#skills">skills</a>
   <a href="#gallery">gallery</a>
@@ -41,23 +29,24 @@ z-index: index -10;
 <!-- MAIN HEADER --> 
   <section id="header" class="header">
     <div class="container">
+      <div class="header-flex">
       <div>
-      <h1 class="headline">Sav</h1>
-      <h4 class="subheadings"> Lets create together</h4>
+      <h1 class="headline">Sav,</h1>
+      <h2 class="subheadings"> Lets create together</h2>
     </div>
-      <img src="images/portrait.png" alt="portrait" width="300 height300" /> 
+      <img src="images/portrait.png" alt="portrait" class="main-image" /> 
     </div>
-<div>
-  <border class="page divider"> 
-  </border>
-</div>
+  </div>
   </section>
   
+  <div class="pagedivider"></div>
+
 <!-- ABOUT SECTION --> 
 <section id="Sav">
   <div class="container">
-    <h2 class="headline"> Sav </h2>
-    <p class="paragraph">Hello! My name is Savannah, and my friends call me Sav. I am based in San Diego, Ca for now, and will see where life takes me from there!
+    <div class="header-flex">
+    <h2 class="subheadings different"> Sav, </h2>
+    <p class="paragraph  unique">Hello! My name is Savannah, and my friends call me Sav. I am based in San Diego, Ca for now, and will see where life takes me from there!
       I am a graphic designer who will be receiving my bachelor’s degree from San Diego State University in May 2025.  
       I have a strong sense of branding and color and I believe I can be an asset to any company who needs help finding their brand identity and wants to further their aesthetic on social media and packaging design.
       I work well on any team, and I am a positive person who will do all I can to help build your brand to its fullest potential. If you want to work with me, reach out to me below! </p>
@@ -67,34 +56,35 @@ z-index: index -10;
 <!-- GALLERY SECTION -->  
 <section id="gallery-images">
   <div class="container">
-    <h3 class="subheadings">Lets work together</h3>
-  </div >
-<div>
-    <img class="gallery-images" src="images/beer.jpg" alt="beer" width="200" height="200" />
-    <img class="gallery-images" src="images/menu.jpg" alt="menu" width="200" height="200" />
-    <img class="gallery-images" src="images/magazine.jpg" alt="magazine" width="200" height="200" />
-    <img class="gallery-images" src="images/shoes.png" alt="shoes" width="200" height="200" />
-    <img class="gallery-images" src="images/soap.jpg" alt="soap" width="200" height="200" />
-    <img class="gallery-images" src="images/social.jpg" alt="socialmedia" width="200" height="200" />
-    <img class="gallery-images" src="images/tartotcards.jpg" alt="cards" width="200" height="200" />
-    <img class="gallery-images" src="images/branding.jpg" alt="branding" width="200" height="200" />
+    <h3 class="subheadings">Lets work together,</h3>
+
+<div class="gallery">
+  
+    <div><img class="gallery-images" src="images/beer.jpg" alt="beer" width="250" height="200" /></div>
+  <div> <img class="gallery-images" src="images/menu.jpg" alt="menu" width="250" height="200" /></div>
+   <div> <img class="gallery-images" src="images/magazine.jpg" alt="magazine" width="250" height="200" /></div>
+   <div> <img class="gallery-images" src="images/shoes.png" alt="shoes" width="250" height="200" /> </div>
+   <div> <img class="gallery-images" src="images/soap.jpg" alt="soap" width="250" height="200" /></div>
+   <div> <img class="gallery-images" src="images/social.jpg" alt="socialmedia" width="250" height="200" /></div>
+   <div>  <img class="gallery-images" src="images/tartotcards.jpg" alt="cards" width="250" height="200" /></div>
+   <div>  <img class="gallery-images" src="images/branding.jpg" alt="branding" width="250" height="200" /></div>
   </div>
+</div>
 </section>
 
 <!-- SKILLS SECTION -->  
 <section id="skills">
   <div class="container">
     <h3 class="subheadings">Skills</h3>
-    <h4 class="h4">Some of my skills</h4>
-    <div>
-      <h4 class="h4">
-      Branding
-      Packaging
-      Typography 
-      Color Theory
-      Social Media
-      Web Design
-      </h4>
+    <p class="paragraph">Some of my design expertise.</p>
+    <div class="skillsflex">
+      <h5>Branding</h5>
+      <h5>Packaging</h5>
+      <h5>Typography</h5>
+     <h5> Color Theory</h5>
+     <h5> Social Media</h5>
+    <h5> Web Design</h5> 
+
     </div>
    
   
@@ -115,12 +105,13 @@ z-index: index -10;
   </div>
 </section>
 <div>
-<border class="page divider"> 
+<border class="pagedivider"> 
 </border>
 </div>
 <!-- FOOTER SECTION -->  
 <footer>
- <nav> back to top </nav>
+  <a href="#header"> back to top</a>
+
 </footer>
 
 <script src="js/script.js"></script>

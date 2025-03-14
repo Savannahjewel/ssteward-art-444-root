@@ -1,0 +1,157 @@
+/* CSS GOES HERE */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+        background-color: #353307  !important;
+        color: #d2a896 ;
+        font-family:"Onest", sans-serif, Helvetica, sans-serif;
+        font-style: normal;
+}
+.menu {
+
+    width:30px;
+    height: 30px; 
+    position: absolute;   
+    top:10px;
+    left: 10px;
+    display:none;
+}
+.unique {
+
+    align-content: center;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.header-flex  {
+padding: 0 10px;
+ }
+
+
+.header { 
+flex-shrink: 0;
+
+}
+.main-image {
+  height: 450px 
+
+
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.pagedivider { 
+    background-image: url("../images/ellipse.svg");
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: auto 100px;
+}
+
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #353307;
+    color: #d2a896;
+    padding: 10px;
+}
+
+.headline {
+    font-family:"Playwrite US Trad", cursive;
+    font-size: 150px;
+    font-weight: 400;
+text-align:left;
+margin: 0;
+
+}
+
+.subheadings {
+    font-family: "Odibee Sans", sans-serif;
+    font-weight: 300;
+    font-size: 200px;
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+
+}
+.paragraph {
+    font-family: "Onest", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.h4 {
+    font-family: "Odibee Sans", sans-serif;
+    font-weight:400;
+    font-size: 30px;
+    font-style: normal;
+    text-align: left;
+}
+
+h5  { font-family: "Odibee Sans", sans-serif;
+font-weight: 100;
+font-size: 25px;
+font-style: normal;
+text-align: left;
+margin-right: 10px;
+
+}
+
+h5::before {
+    content: "";
+    background-image: url(../images/flower.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    gap: 5px;
+}
+.skillsflex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.different {
+    font-family:"Playwrite US Trad", cursive;
+    font-size:  65px;
+    font-weight: 400;
+text-align:left;
+margin: 40px;
+}
+
+.gallery {
+    padding-top: 20px;
+    display: flex; 
+    flex-flow:  wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    justify-content: left;
+  }
