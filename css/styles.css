@@ -12,6 +12,7 @@ body {
         color: #d2a896 ;
         font-family:"Onest", sans-serif, Helvetica, sans-serif;
         font-style: normal;
+        
 }
 .menu {
 
@@ -30,7 +31,7 @@ body {
 }
 
 .header-flex  {
-padding: 0 10px;
+padding: 0px 10px;
  }
 
 
@@ -39,8 +40,13 @@ flex-shrink: 0;
 
 }
 .main-image {
-  height: 400px;
-
+  width: auto;
+  height: 500px;
+  opacity: 0%;
+  animation-name: fadein;
+  animation-duration: 3s;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
 }
 
 .header-flex {
@@ -54,6 +60,15 @@ flex-shrink: 0;
     background-size: auto 100px;
 }
 
+.main-navigation div a {
+
+    color: #d2a896;
+    text-decoration: none;
+    font-family: "Onest";
+    padding-left: 20px;
+    
+
+}
 
 section {
     width: 100%;
@@ -155,35 +170,7 @@ margin: 40px;
     justify-content: left;
   }
   
-  .button {
-font-size: 30px;
-font-family:"Onest", sans-serif;
-border-radius: 10px;
-margin: 200px auto;
-max-width: 200px;
-background-color: #353307;
-color:#d2a896;
-transition-property: background-color;
-transition-duration: 300ms;
  
-}
-
-  .button:hover{
-cursor:crosshair;
-background-color:#d2a896;
-color:#353307;
-
-  }
-
-.main-image {
-    width:100% ;
-    opacity: 0%;
-    animation-name: fadein;
-    animation-duration: 3s;
-    animation-delay: 300ms;
-    animation-fill-mode: forwards;
-}
-
 
 @keyframes  fadein {
     from  { opacity:0; }
