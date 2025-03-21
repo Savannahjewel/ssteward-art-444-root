@@ -39,8 +39,7 @@ flex-shrink: 0;
 
 }
 .main-image {
-  height: 450px 
-
+  height: 400px;
 
 }
 
@@ -155,3 +154,38 @@ margin: 40px;
     width: 100%;
     justify-content: left;
   }
+  
+  .button {
+font-size: 30px;
+font-family:"Onest", sans-serif;
+border-radius: 10px;
+margin: 200px auto;
+max-width: 200px;
+background-color: #353307;
+color:#d2a896;
+transition-property: background-color;
+transition-duration: 300ms;
+ 
+}
+
+  .button:hover{
+cursor:crosshair;
+background-color:#d2a896;
+color:#353307;
+
+  }
+
+.main-image {
+    width:100% ;
+    opacity: 0%;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes  fadein {
+    from  { opacity:0; }
+     to { opacity:1; }
+}
