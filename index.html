@@ -16,17 +16,15 @@
 
 </head>
 
-<body>
-<img class="menu" onclick="revealMenu" src="images/hamburger-menu-svgrepo-com.svg" alt="menu"/>
+<body id="top">
+<img class="menu" onclick="revealMenu()" src="images/hamburger-menu-svgrepo-com.svg" alt="menu"/>
 
-  <nav class="main-navigation">  
-  <div >
+  <nav class="main-navigation" id="menu">  
   <a href="#Sav">about</a>
   <a href="#skills">skills</a>
   <a href="#gallery">gallery</a>
   <a href="#faq">faq</a>
   <a href="#header">home</a>
-</div>
  </nav>
 <!-- MAIN HEADER --> 
   <section id="header" class="header">
@@ -111,13 +109,16 @@
 </border>
 </div>
 <!-- FOOTER SECTION -->  
-<footer>
-  <a href="#header"> back to top</a>
+<footer class="footer">
+
+  <a href="#top"> back to top </a>
 
 </footer>
 
 
-<script src= "script.js"></script>
+
+
+<script src="js/script.js"></script>
 
 
 </body>

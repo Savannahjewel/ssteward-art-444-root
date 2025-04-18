@@ -60,15 +60,30 @@ flex-shrink: 0;
     background-size: auto 100px;
 }
 
-.main-navigation div a {
+nav.main-navigation {
+    display: flex;
+    flex-flow: row;
+}
+
+nav.main-navigation a {
 
     color: #d2a896;
     text-decoration: none;
     font-family: "Onest";
-    padding-left: 20px;
-    
+    padding: 20px;
+    display: block;
+
 
 }
+
+footer.footer a {
+    color: #d2a896;
+    text-decoration: none;
+    font-family: "Onest";
+    padding-left: 20px;
+}
+
+
 
 section {
     width: 100%;
@@ -83,11 +98,6 @@ section {
     margin: 0 auto;
 }
 
-footer {
-    background-color: #353307;
-    color: #d2a896;
-    padding: 10px;
-}
 
 .headline {
     font-family:"Playwrite US Trad", cursive;
@@ -171,6 +181,12 @@ margin: 40px;
   }
   
  
+footer {
+    background-color: #353307;
+    color: #d2a896;
+    padding: 10px;
+    text-decoration: none;
+}
 
 @keyframes  fadein {
     from  { opacity:0; }

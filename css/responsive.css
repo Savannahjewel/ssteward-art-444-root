@@ -35,13 +35,9 @@
     .h5  { 
         font-size: 20px;
     }
-.menu {
-    display:block;
-    
-}
-
-.revealMenu 
-
+    .menu {
+        display:block;
+    }
 
 .headline {
     font-size: 100px;
@@ -51,9 +47,17 @@
     flex-direction: column;
 }
     
-.main-navigation {
+nav.main-navigation {
 display:none;
 }
+
+.revealMenu {
+    display: flex !important;
+    flex-flow: column !important;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
     .flex-wrapper {
         display: flex;
         flex-direction: row;
@@ -68,8 +72,8 @@ display:none;
 
 .main-image {
 
-        height:300px;
-        width: auto;
+        height:320px;
+        width: 250px;
     }
 }
 
@@ -89,4 +93,4 @@ display:none;
   font-size: 25px;  
 }
 
-
+ 
