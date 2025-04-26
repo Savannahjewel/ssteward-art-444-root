@@ -8,12 +8,46 @@ body {
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-        background-color: #353307  !important;
+        background-color: #353307;
         color: #d2a896 ;
         font-family:"Onest", sans-serif, Helvetica, sans-serif;
         font-style: normal;
-        
 }
+
+
+
+
+.light-toggle {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    background-image: url("../images/dark.svg");
+    width: 35px;
+    height: 25px; 
+    background-size: auto 16px;
+    background-repeat:no-repeat ;
+
+}
+  
+.light-change {
+
+background-image:url("../images/light.svg");
+
+
+}
+  
+  .light-toggle img {
+    width: 30px;
+    height: 30px;
+  }
+
+.lightMode {
+background-color: #d2a896;
+color: #353307;
+}
+
 .menu {
 
     width:30px;
@@ -22,7 +56,15 @@ body {
     top:10px;
     left: 10px;
     display:none;
+    
 }
+
+.navlink-lightmode {
+color: #353307 !important;
+
+
+}
+ 
 .unique {
 
     align-content: center;
