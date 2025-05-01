@@ -57,6 +57,10 @@ body {
     height: 25px; 
     background-size: auto 16px;
     background-repeat:no-repeat ;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+   
 
 }
   
