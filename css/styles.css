@@ -48,18 +48,18 @@ body {
 .light-toggle {
     background: none;
     border: none;
+    position: fixed;
+    top: 15px;
+    right: 10px;
     padding: 10px;
-    margin: 20px;
-     padding:10px;
+    margin: 10px;
     cursor: pointer;
     background-image: url("../images/dark.svg");
     width: 35px;
     height: 25px; 
     background-size: auto 16px;
     background-repeat:no-repeat ;
-    position: absolute;
-    top: 15px;
-    right: 25px;
+ 
    
 
 }
@@ -74,6 +74,7 @@ background-image:url("../images/light.svg");
   .light-toggle img {
     width: 30px;
     height: 30px;
+    
      
   }
 
